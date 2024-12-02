@@ -30,7 +30,7 @@ This repository contains code for training a DQN agent with reward shaping on va
    pip install -r requirements.txt
    ```
 
-### Running the Training
+### Running the Training - Cartpole or Montezuma's Revenge
 
 To train the DQN agent, run the following command:
 
@@ -47,28 +47,6 @@ python train.py --env MontezumaRevenge-v4 --n_episodes 500 --target_update_freq 
 Parsing Logs and Plotting Results
 To parse the log file and plot the training rewards:
 
-```bash
-python parse_log.py
-```
+### Running the Training - Breakout
 
-# Results
-
-## Montezuma's Revenge
-
-### Montezuma's Revenge Results
-
-## Breakout
-
-### Breakout Results
-
-## CartPole
-
-### CartPole Results
-
-## YouTube Video
-
-[Watch the training process on YouTube](insert-your-video-link-here)
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
+To run the DQN agent on breakout, run the file breakout/train_breakout.py. Result graph is created and plotted alongside the training process in a separate autocreated file.
