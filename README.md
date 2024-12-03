@@ -1,4 +1,4 @@
-# Reinforcement Learning with Reward Shaping
+# Deep Q-Learning for Atari Games
 
 This repository contains code for training a DQN agent with reward shaping on various environments including Montezuma's Revenge, Breakout, and CartPole.
 
